@@ -1,13 +1,13 @@
 {
   "name": "@woopidi/status-codes",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Http status codes",
   "main": "dist/index.js",
   "scripts": {
-		"clean": "rm -rf dist/*",
-		"build": "npm run clean; ./node_modules/.bin/tsc",
-		"buid:watch": "npm run build -- -w",
-		"postinstall": "npm run build",
+    "clean": "rm -rf dist/*",
+    "build": "npm run clean; ./node_modules/.bin/tsc",
+    "buid:watch": "npm run build -- -w",
+    "postinstall": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -27,8 +27,8 @@
   "homepage": "https://github.com/woopidi/status-codes#readme",
   "devDependencies": {
     "typescript": "^2.6.2"
-	},
-	"files": [
-		"dist"
-	]
+  },
+  "files": [
+    "dist"
+  ]
 }
