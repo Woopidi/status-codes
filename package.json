@@ -1,6 +1,6 @@
 {
   "name": "@woopidi/status-codes",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "Http status codes",
   "main": "dist/index.js",
   "scripts": {
