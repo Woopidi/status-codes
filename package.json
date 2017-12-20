@@ -7,7 +7,6 @@
     "clean": "rm -rf dist/*",
     "build": "npm run clean; ./node_modules/.bin/tsc",
     "buid:watch": "npm run build -- -w",
-    "postinstall": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
