@@ -27,5 +27,8 @@
   "homepage": "https://github.com/woopidi/status-codes#readme",
   "devDependencies": {
     "typescript": "^2.6.2"
-  }
+	},
+	"files": [
+		"dist"
+	]
 }
