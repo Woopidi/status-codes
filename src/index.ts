@@ -1,5 +1,7 @@
 export enum Codes {
 
+	Continue = 100,
+
 	/**
 	* statusCode: 200
 	* 
@@ -9,7 +11,20 @@ export enum Codes {
 	*/
 	OK = 200,
 
+	/**
+   * statusCode: 201
+   * 
+   * The request has been fulfilled, resulting in the creation of a new resource.
+   */
 	Created = 201,
+
+	/**
+   * https://en.wikipedia.org/wiki/List_of_HTTP_status_codes
+   * 2xx Success
+   * 
+   * The request has been accepted for processing, but the processing has not been completed. 
+   * The request might or might not be eventually acted upon, and may be disallowed when processing occurs.
+   */
 	Accepted = 202,
 	NonAuthoritativeInformation = 203,
 	NoContent = 204,
