@@ -1,4 +1,4 @@
-export type Stuff  = "awe" | "stuff" | "More" ;
+export type Stuff  = "awe" | "stuff" | "More" | "dfdf";
 
 
 export enum Success {
