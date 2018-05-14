@@ -1,3 +1,6 @@
+export type Stuff  = "awe" | "stuff";
+
+
 export enum Success {
 
 	/**
