@@ -1,6 +1,6 @@
 {
   "name": "@woopidi/status-codes",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Http status codes",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -8,7 +8,8 @@
     "clean": "rm -rf dist/*",
     "build": "npm run clean; ./node_modules/.bin/tsc",
     "buid:watch": "npm run build -- -w",
-    "test": "echo \"Error: no test specified\" && exit 1"
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"release": "./node_modules/.bin/semantic-release"
   },
   "repository": {
     "type": "git",
@@ -23,9 +24,13 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/woopidi/status-codes/issues"
+	},
+	"publishConfig": {
+    "access": "public"
   },
   "homepage": "https://github.com/woopidi/status-codes#readme",
   "devDependencies": {
+    "semantic-release": "^15.4.1",
     "typescript": "^2.6.2"
   },
   "files": [
