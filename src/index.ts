@@ -3,3 +3,6 @@ export { Success } from "./success";
 export { ClientError } from "./client-error";
 export { ServerError } from "./server-error";
 // Testing .dfdkj
+
+
+export const Ok = 200;
