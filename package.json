@@ -10,7 +10,8 @@
     "buid:watch": "npm run build -- -w",
     "test": "echo \"Error: no test specified\" && exit 1",
     "release": "./node_modules/.bin/semantic-release",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release",
+    "travis-deploy-once": "travis-deploy-once"
   },
   "repository": {
     "type": "git",
@@ -31,8 +32,9 @@
   },
   "homepage": "https://github.com/woopidi/status-codes#readme",
   "devDependencies": {
-    "semantic-release": "^15.4.1",
-    "typescript": "^2.6.2"
+    "semantic-release": "^15.5.2",
+    "typescript": "^2.6.2",
+    "travis-deploy-once": "^5.0.0"
   },
   "files": [
     "dist"
