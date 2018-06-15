@@ -6,3 +6,5 @@ export { ServerError } from "./server-error";
 
 
 export const Ok = 200;
+
+export const Oops = 300;
