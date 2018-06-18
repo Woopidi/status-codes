@@ -50,6 +50,16 @@ export enum HttpStatus {
      * The request has been accepted for processing, but the processing has not been completed. The request might or might not be eventually acted upon, and may be disallowed when processing occurs.
      */
     ACCEPTED = 202,
+    /**
+     * The server cannot or will not process the request due to an apparent client error (e.g., malformed request syntax, size too large, invalid request message framing, or deceptive request routing).
+     */
+    BAD_REQUEST = 400,
+    UNAUTHORIZED = 401,
+    PAYMENT_REQUIRED = 402,
+    /**
+     * The request was valid, but the server is refusing action. The user might not have the necessary permissions for a resource, or may need an account of some sort.
+     */
+    FORBIDDEN = 403,
 }
 
 export default HttpStatus;
