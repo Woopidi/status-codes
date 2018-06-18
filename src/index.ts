@@ -21,7 +21,7 @@ export namespace Types {
     export type Success = 200|201;
 }
 
-export const enum HttpStatus {
+export enum HttpStatus {
     /**
      * Used to return some response headers before final HTTP message.
      */
