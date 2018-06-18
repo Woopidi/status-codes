@@ -4,13 +4,17 @@
 ## Install
 
 ```bash
-npm install @woopidi/status-codes
+npm install @woopidi/status-codes --save
 ```
 
-## How to use
+## Example
 
-```node
-import { OK, NotFound } from "@woopdi/status-codes";
+```javascript
+import { StatusCode, Types } from "@woopdi/status-codes";
+
+app.get('/', (req, res) => {
+  res.status(StatusCode.OK).send('Hello World')
+});
 ```
 
 ## Codes
